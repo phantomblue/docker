@@ -15,4 +15,4 @@ ADD run.sh /kafka/run.sh
 RUN chmod a+x /kafka/run.sh
 EXPOSE 9092
 EXPOSE 2181   
-CMD ["run.sh"]
+CMD ["/kafka/run.sh"]
